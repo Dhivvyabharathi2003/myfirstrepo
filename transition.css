@@ -1,0 +1,16 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    transition: all 1s ease 1s;
+    position:relative;
+    top: 100px;
+    left:100px;
+
+}
+div:hover{
+background-color: rgb(27, 20, 23);
+color: aliceblue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+transform:skew(45deg);
+}
