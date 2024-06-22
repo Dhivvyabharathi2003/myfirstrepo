@@ -1,0 +1,26 @@
+#count{
+    height:200px;
+    display:flex;
+    width: 300px;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: baseline;
+    border: 2px solid red;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border:1px solid black;
+}
+#one{
+    background-color: blue;
+}
+#two{
+    background-color: rgb(207, 33, 33);
+}
+#three{
+    background-color: rgb(18, 78, 2);
+}
+#four{
+    background-color: rgb(234, 48, 156);
+}

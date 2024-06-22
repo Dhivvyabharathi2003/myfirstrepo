@@ -1,0 +1,18 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: all;
+    transition-duration:3s;
+    transition-timing-function:inherit;
+    transition-delay: 2s;
+    position: absolute;
+
+}
+div:hover{
+    background-color: black;
+    color: azure;
+    width: 200px;
+    height: 200px;
+    transition: all;
+}

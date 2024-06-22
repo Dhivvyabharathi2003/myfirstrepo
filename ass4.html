@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> Enter first number <input  type="number" id="n1"></p>
+    <p> Enter second number<input type="number" id="n2"></p>
+    <button onclick="add()">add</button>
+    <button onclick="sub()">sub</button>
+    <button onclick="mul()">mul</button>
+    <button onclick="div()">div</button>
+    <h4 id="res"> Result <input  type="number"></h4>
+    
+</body>
+<script>
+    function add(){
+        var num1=document.getElementById("n1").value;
+        var num2=document.getElementById("n2").value;
+        
+        num1=parseInt(num1);
+        num2=parseInt(num2);
+
+        var sum=num1+num2;
+        
+            document.getElementById("res").innerText=sum;
+    
+    }
+    function sub(){
+        var num1=document.getElementById("n1").value;
+        var num2=document.getElementById("n2").value;
+        
+        num1=parseInt(num1);
+        num2=parseInt(num2);
+
+        var sub=num1-num2;
+        document.getElementById("res").innerText=sub;
+    }
+    function mul(){
+        var num1=document.getElementById("n1").value;
+        var num2=document.getElementById("n2").value;
+        
+        num1=parseInt(num1);
+        num2=parseInt(num2);
+
+        var mul=num1*num2;
+        document.getElementById("res").innerText=mul;
+    }
+    function div(){
+        var num1=document.getElementById("n1").value;
+        var num2=document.getElementById("n2").value;
+        
+        num1=parseInt(num1);
+        num2=parseInt(num2);
+
+        var div=num1/num2;
+        document.getElementById("res").innerText=div;
+    }
+
+</script>
+</html>

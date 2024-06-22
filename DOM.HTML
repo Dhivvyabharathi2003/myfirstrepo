@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!--
+<body>
+
+<p id="insert"></p>
+
+</body>
+<script>
+    const animals=["tiger","lion","kee"]
+    animals.splice(1,2,"dog","deer","ele")
+    //document.write(animals)
+    document.getElementById("insert").innerText=animals
+
+    </script>
+
+<body>
+    <h1 id="heading"></h1>
+<h1 class="dom">hi....</h1> 
+<h1 class="dom">heloo..</h1> 
+<h1 class="dom">how are you?</h1> 
+</body>
+<script>
+    const animals=["tiger","lion","cow","goat"]
+    // animals.splice(1,2,"dog","deer","elephant")
+    
+    for(i in animals){
+        document.getElementsByClassName("dom")[i].innerText=animals[i]
+    }
+</script>
+-->
+
+<body>
+    <h1 class="dom">hi....</h1> 
+<h1 class="dom">heloo..</h1> 
+<h1 class="dom">how are you?</h1> 
+<button onclick="myfunc()">show animal</button>
+</body>
+<script>
+    function myfunc(){
+
+        const animals=["tiger","lion","cow","goat"]
+        for(i in animals){
+        document.getElementsByClassName("dom")[i].innerText=animals[i]
+    }
+    }
+</script>
+</html>
